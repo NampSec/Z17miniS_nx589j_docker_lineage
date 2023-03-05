@@ -4,4 +4,4 @@ Z17miniS_nx589j_docker_lineage
 
 CONFIG_CGROUP_BPF：缺少 开启了关联项CONFIG_NETFILTER_XT_MATCH_BPF，
 CONFIG_IP_NF_NAT： missing 没有该配置，开启了IPV4_NAT（包括nattype device支持）和IPV6_NAT
-CONFIG_OVERLAY_FS： missing 不存在overfs，启用了btrfs，建议自己在/data/data/com.termux/files/usr/etc/docker/daemon.jsoni修改storage driver为btrfs //
+CONFIG_OVERLAY_FS： missing 不存在overfs，打了补丁/SYS/FS/未挂载
